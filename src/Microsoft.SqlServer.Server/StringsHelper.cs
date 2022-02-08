@@ -121,7 +121,7 @@ namespace Microsoft.SqlServer.Server
                 return string.Join(", ", resourceFormat, p1, p2, p3);
             }
 
-            return string.Format(resourceFormat, p1, p2, p3);
+            return string.Format(resourceFormat, p1, p2, p3);  
         }
     }
 }
